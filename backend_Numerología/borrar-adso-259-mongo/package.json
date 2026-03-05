@@ -12,12 +12,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-<<<<<<< HEAD
+
     "axios": "^1.13.4",
-=======
+
     "@google/generative-ai": "^0.24.1",
     "axios": "^1.13.5",
->>>>>>> b46e2fb1a6e3d11aed1efc625ea4323ee896ee2e
+
     "cors": "^2.8.6",
     "dotenv": "^17.2.4",
     "express": "^5.2.1",
@@ -34,3 +34,4 @@
   "homepage": "https://github.com/mpgigat/borrar-adso-259-mongo#readme",
   "description": ""
 }
+
