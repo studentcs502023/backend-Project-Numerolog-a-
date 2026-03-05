@@ -1,12 +1,12 @@
 import express from "express"
 import { check } from "express-validator"
-<<<<<<< HEAD
+
 import { postpagos, getpagos, putpagos,deletepagos } from "../controllers/pagos.js"
 import validarResults from "../middlewares/validar-campos.js"
-=======
+
 import { postpagos, getpagos } from "../controllers/pagos.js"
 import  {validarCampos} from "../middlewares/validar-campos.js"
->>>>>>> b46e2fb1a6e3d11aed1efc625ea4323ee896ee2e
+
 
 const router = express.Router()
 
@@ -60,3 +60,4 @@ router.get(
 // )
 
 export default router
+
