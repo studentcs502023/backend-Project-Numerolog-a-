@@ -1,14 +1,14 @@
-<<<<<<< HEAD
+
 import { Router } from "express"
 import { check } from "express-validator"
 import  lecturasController  from "../controllers/lecturas.js"
 
-=======
+
 import express from "express";
 import { check } from "express-validator";
 import { postLectura } from "../controllers/lecturas.js";
 import { validarCampos } from "../middlewares/validar-campos.js";
->>>>>>> b46e2fb1a6e3d11aed1efc625ea4323ee896ee2e
+
 
 const router = express.Router();
 
@@ -91,4 +91,5 @@ export default router;
 //   deletelecturas
 // )
 >>>>>>> b46e2fb1a6e3d11aed1efc625ea4323ee896ee2e
+
 
