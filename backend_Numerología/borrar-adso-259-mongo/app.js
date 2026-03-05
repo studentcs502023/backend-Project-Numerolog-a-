@@ -18,6 +18,15 @@ app.use("/api/lecturas", lecturasRoute);
 
 
 
-app.listen(process.env.PORT,()=>{
-    console.log(`Servidor escuchando en el puerto ${process.env.PORT}`);
-})
+const iniciarServidor = async () => {
+  await conectarMongo();
+
+  const PORT = process.env.PORT || 3000;
+
+  app.listen(PORT, () => {
+    console.log(`Servidor en puerto ${PORT}`);
+  });
+};
+
+iniciarServidor();
+
