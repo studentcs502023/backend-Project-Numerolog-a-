@@ -1,5 +1,5 @@
 import axios from "axios";
-<<<<<<< HEAD
+
 import lecturas from "../models/lecturas.js";
 import Usuario from "../models/usuario.js";
 
@@ -216,7 +216,7 @@ const lecturasController = {
 };
 
 export default lecturasController;
-=======
+
 import Lectura from "../models/lecturas.js";
 import Usuario from "../models/usuario.js";
 import Pagos from "../models/modelspagos.js";
@@ -294,4 +294,3 @@ No menciones dinero, pagos ni suscripciones.
     });
   }
 };
->>>>>>> b46e2fb1a6e3d11aed1efc625ea4323ee896ee2e
